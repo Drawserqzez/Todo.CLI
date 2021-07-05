@@ -1,4 +1,5 @@
 ﻿using System;
+using CommandLine;
 
 namespace Todo.CLI
 {
@@ -6,7 +7,8 @@ namespace Todo.CLI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // TODO: Set up DI container here
+            var parser = new Parser();
         }
     }
 }
